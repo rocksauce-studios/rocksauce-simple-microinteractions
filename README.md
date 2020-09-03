@@ -22,12 +22,13 @@ Every member of a production team should be thinking about whole macro view of t
 When that happens, its not long before they jump ship to the competitor that they enjoy using.
 
 ## What's included in this GitHub:
-* **rocksauce-microinteractions.html** - Simple HTML page which display the content for the DEMO
+* **rocksauce-microinteractions.html** - Simple HTML page which display the content for the **DEMO**
 * **"css" folder** - Contains the CSS file that format the *rocksauce-microinteractions.html* page with microinteraction style
   - **microinteraction-styles.css** - Built from *microinteraction-style.scss* to style *rocksauce-microinteractions.html*
 * **"sass" folder** - Contains the .SCSS file that builds to *microinteraction-styles.css* page
   - **microinteraction-styles.scss** - Builds to *microinteraction-style.css*
 * **config.codekit3** - *Not required* The settings document for how the project is set-up in CodeKit3
+* **no-microinteractions-bad-ux-thumb.png** - Thumbnail of how the final page renders
  
  ## Recommended Software
  * **Coda 2 from Panic** - For editing HTML, CSS, JavaScipt, jQuery, SCSS and most other programming languages
