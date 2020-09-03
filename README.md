@@ -7,7 +7,7 @@ https://www.rocksaucestudios.com
 
 # Simple Microinteractions
 
-**User experience isn't about layout or a single widget on the screen. UX is about all of those things combined, how they flow together, and how your audience transitions from one to the other.**
+### User experience isn't about layout or a single widget on the screen. UX is about all of those things combined, how they flow together, and how your audience transitions from one to the other.
 
 In 2020, your user experience isn't complete if you're not including microinteractions throughout your product. Too often, UX designers feel that transitions, effects, animations, or hover effects aren't parrt of their domain. They leave the work for those who specialize in User Interface design or, in many cases, the development team building the project. 
 
