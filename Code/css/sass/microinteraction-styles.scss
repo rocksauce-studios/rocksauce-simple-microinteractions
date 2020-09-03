@@ -1,0 +1,86 @@
+body {
+	background-color:#fff;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	color:#464646;
+}
+
+p, h1, h2, h3, h4, h5, h6, blockquote, div, span, a {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	color:#464646;
+}
+
+content {
+	width:95%;
+	max-width:1280px;
+	margin:0 auto;
+	border:0px;
+	display:block;
+	padding:30px;
+	
+			
+	text {
+		clear:both;
+		display:block;
+		width:100%;			
+				
+		h1 {
+			font-size:52px;
+			font-weight:800;
+			line-height:1;
+			width:95%;
+		}
+	}
+
+}
+
+buttons {
+	clear:both;
+	width:75%;
+	max-width:1200px;
+	display:block;
+	display:grid;
+	grid-template-columns:repeat(2, minmax(100px, auto));
+	gap:10px;	
+}
+
+.buttonOne, .buttonTwo {
+	padding:15px;
+	font-size:20px;
+	font-weight:800;
+	color:#fff;
+	display:inline-block;
+	position:relative;
+	border-radius:10px;
+	border:0px;	
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	box-sizing:border-box;
+	transition: all .2s ease-in;
+	box-shadow: 0px 22px 33px rgba(0, 0, 0, 0.15);
+		
+	&:hover {
+		transition: all .2s ease-in;	
+		box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.45);
+		transform: translate(0,3px);
+	}
+	
+}
+
+.buttonOne {
+	background-color:#A06BCE;
+
+	&:hover {
+		background-color:#FC800f;
+	}	
+}
+	
+.buttonTwo {
+	background-color:#01a5e6;
+	
+	&:hover {
+		background-color:#43D98F;
+	}		
+}
