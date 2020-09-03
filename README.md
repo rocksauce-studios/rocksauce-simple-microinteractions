@@ -24,7 +24,7 @@ When that happens, its not long before they jump ship to the competitor that the
 * **"css" folder** - Contains the CSS file that format the *rocksauce-microinteractions.html* page with microinteraction style
   - **microinteraction-styles.css** - Built from *microinteraction-style.scss* to style *rocksauce-microinteractions.html*
 * **"sass" folder** - Contains the .SCSS file that builds to *microinteraction-styles.css* page
- - **microinteraction-styles.scss** - Builds to *microinteraction-style.css*
+  - **microinteraction-styles.scss** - Builds to *microinteraction-style.css*
 * **config.codekit3** - *Not required* The settings document for how the project is set-up in CodeKit3
  
  ## Recommended Software
