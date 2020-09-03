@@ -5,7 +5,9 @@ https://youtu.be/Ezby6cdIz0g
 
 https://www.rocksaucestudios.com
 
-User experience isn't about layout or a single widget on the screen. UX is about all of those things combined, how they flow together, and how your audience transitions from one to the other. 
+#Simple Microinteractions
+
+**User experience isn't about layout or a single widget on the screen. UX is about all of those things combined, how they flow together, and how your audience transitions from one to the other.**
 
 In 2020, your user experience isn't complete if you're not including microinteractions throughout your product. Too often, UX designers feel that transitions, effects, animations, or hover effects aren't parrt of their domain. They leave the work for those who specialize in User Interface design or, in many cases, the development team building the project. 
 
@@ -16,3 +18,18 @@ How can you utilize a hidden side-menu if you don't know how it's going to inter
 Every member of a production team should be thinking about whole macro view of the product. Knocking out a 2-week sprint may produce a great single feature, but if you're not going back to cleanly define your microinteractions, then users will be left with a cold, lifeless product. 
 
 When that happens, its not long before they jump ship to the competitor that they enjoy using.
+
+##What's included in this GitHub:##
+1. **rocksauce-microinteractions.html** - Simple HTML page which display the content for the DEMO
+1. **"css" folder** - Contains the CSS file that format the *rocksauce-microinteractions.html* page with microinteraction style
+  - **microinteraction-styles.css** - Built from *microinteraction-style.scss* to style *rocksauce-microinteractions.html*
+1. **"sass" folder** - Contains the .SCSS file that builds to *microinteraction-styles.css* page
+ - **microinteraction-styles.scss** - Builds to *microinteraction-style.css*
+ 1. **config.codekit3** - *Not required* The settings document for how the project is set-up in CodeKit3
+ 
+ ##Recommended Software##
+ 1. **Coda 2 from Panic** - For editing HTML, CSS, JavaScipt, jQuery, SCSS and most other programming languages
+ 1. **CodeKit3** - A fantastic SASS and other framework compiler, used to turn SCSS to CSS
+ 
+ Questions? Comments? Concerns? Email 
+
