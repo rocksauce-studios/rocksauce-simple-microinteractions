@@ -1,63 +1,103 @@
+/*	
+	September 2, 2020
+	Author: Q Manning
+	Company: Rocksauce
+	URL: https://www.rocksaucestudios.com
+	Email: qanswers@rocksaucestudios.com
+	
+	MIT License		
+*/
+
 body {
-	background-color:#fff;
+	background-color: #fff;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-weight: 500;
-	color:#464646;
+	color: #464646;
 }
 
 p, h1, h2, h3, h4, h5, h6, blockquote, div, span, a {
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-weight: 500;
-	color:#464646;
+	color: #464646;
 }
 
-content {
-	width:95%;
-	max-width:1280px;
-	margin:0 auto;
-	border:0px;
-	display:block;
-	padding:30px;
+rocksauce {
+	display: inline-block;
+	position: relative;
+	border-radius: 500px;
+	padding: 15px;
+	box-sizing: border-box;
+	transition: all .2s ease-in;	
+	transform: translate(-20px,0);
 	
+	svg {
+		width: 56px;
+		height: 56px;
+		display: block;
+		fill: #464646;
+		position: relative;
+		transition: all .2s ease-in;
+	}	
+	
+	&:hover {
+		background-color: #464646;
+		transition: all .2s ease-in;
+
+		svg {
+			fill: #FF9191;
+			transition: all .2s ease-in;
+		}
+	}
+}
+
+
+
+content {
+	width:auto;
+	max-width: 1280px;
+	border: 0px;
+	display: block;
+	padding: 30px;
 			
 	text {
-		clear:both;
-		display:block;
-		width:100%;			
+		clear: both;
+		display: block;
+		width: 100%;			
 				
 		h1 {
-			font-size:52px;
-			font-weight:800;
-			line-height:1;
-			width:95%;
+			font-size: 52px;
+			font-weight: 800;
+			line-height: 1;
+			width: 95%;
+			margin: 0 0 30px 0;
 		}
 	}
 
 }
 
 buttons {
-	clear:both;
-	width:75%;
-	max-width:1200px;
-	display:block;
-	display:grid;
-	grid-template-columns:repeat(2, minmax(100px, auto));
-	gap:10px;	
+	clear: both;
+	width: 100%;	
+	display: inline-block;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(100px, 250px));
+	column-gap: 10px;	
 }
 
 .buttonOne, .buttonTwo {
-	padding:15px;
-	font-size:20px;
-	font-weight:800;
-	color:#fff;
-	display:inline-block;
-	position:relative;
-	border-radius:10px;
-	border:0px;	
-	text-transform:uppercase;
-	text-decoration:none;
-	text-align:center;
-	box-sizing:border-box;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: 800;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	border-radius: 10px;
+	border: 0px;	
+	max-width: 250px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
 	transition: all .2s ease-in;
 	box-shadow: 0px 22px 33px rgba(0, 0, 0, 0.15);
 		
@@ -70,17 +110,17 @@ buttons {
 }
 
 .buttonOne {
-	background-color:#A06BCE;
+	background-color: #A06BCE;
 
 	&:hover {
-		background-color:#FC800f;
+		background-color: #FC800f;
 	}	
 }
 	
 .buttonTwo {
-	background-color:#01a5e6;
+	background-color: #01a5e6;
 	
 	&:hover {
-		background-color:#43D98F;
+		background-color: #43D98F;
 	}		
 }

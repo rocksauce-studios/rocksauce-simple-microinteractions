@@ -1,45 +1,69 @@
+/*	
+	September 2, 2020
+	Author: Q Manning
+	Company: Rocksauce
+	URL: https://www.rocksaucestudios.com
+	Email: qanswers@rocksaucestudios.com
+	
+	MIT License		
+*/
 body {
   background-color: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 500;
-  color: #464646;
-}
+  color: #464646; }
 
 p, h1, h2, h3, h4, h5, h6, blockquote, div, span, a {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 500;
-  color: #464646;
-}
+  color: #464646; }
+
+rocksauce {
+  display: inline-block;
+  position: relative;
+  border-radius: 500px;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: all .2s ease-in;
+  transform: translate(-20px, 0); }
+  rocksauce svg {
+    width: 56px;
+    height: 56px;
+    display: block;
+    fill: #464646;
+    position: relative;
+    transition: all .2s ease-in; }
+  rocksauce:hover {
+    background-color: #464646;
+    transition: all .2s ease-in; }
+    rocksauce:hover svg {
+      fill: #FF9191;
+      transition: all .2s ease-in; }
 
 content {
-  width: 95%;
+  width: auto;
   max-width: 1280px;
-  margin: 0 auto;
   border: 0px;
   display: block;
-  padding: 30px;
-}
-content text {
-  clear: both;
-  display: block;
-  width: 100%;
-}
-content text h1 {
-  font-size: 52px;
-  font-weight: 800;
-  line-height: 1;
-  width: 95%;
-}
+  padding: 30px; }
+  content text {
+    clear: both;
+    display: block;
+    width: 100%; }
+    content text h1 {
+      font-size: 52px;
+      font-weight: 800;
+      line-height: 1;
+      width: 95%;
+      margin: 0 0 30px 0; }
 
 buttons {
   clear: both;
-  width: 75%;
-  max-width: 1200px;
-  display: block;
+  width: 100%;
+  display: inline-block;
   display: grid;
-  grid-template-columns: repeat(2, minmax(100px, auto));
-  gap: 10px;
-}
+  grid-template-columns: repeat(2, minmax(100px, 250px));
+  column-gap: 10px; }
 
 .buttonOne, .buttonTwo {
   padding: 15px;
@@ -50,29 +74,24 @@ buttons {
   position: relative;
   border-radius: 10px;
   border: 0px;
+  max-width: 250px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   box-sizing: border-box;
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 22px 33px rgba(0, 0, 0, 0.15);
-}
-.buttonOne:hover, .buttonTwo:hover {
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.45);
-  transform: translate(0, 3px);
-}
+  transition: all .2s ease-in;
+  box-shadow: 0px 22px 33px rgba(0, 0, 0, 0.15); }
+  .buttonOne:hover, .buttonTwo:hover {
+    transition: all .2s ease-in;
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.45);
+    transform: translate(0, 3px); }
 
 .buttonOne {
-  background-color: #A06BCE;
-}
-.buttonOne:hover {
-  background-color: #FC800f;
-}
+  background-color: #A06BCE; }
+  .buttonOne:hover {
+    background-color: #FC800f; }
 
 .buttonTwo {
-  background-color: #01a5e6;
-}
-.buttonTwo:hover {
-  background-color: #43D98F;
-}
+  background-color: #01a5e6; }
+  .buttonTwo:hover {
+    background-color: #43D98F; }
