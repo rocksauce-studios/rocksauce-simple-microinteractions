@@ -31,5 +31,5 @@ When that happens, its not long before they jump ship to the competitor that the
  * **Coda 2 from Panic** - For editing HTML, CSS, JavaScipt, jQuery, SCSS and most other programming languages
  * **CodeKit3** - A fantastic SASS and other framework compiler, used to turn SCSS to CSS
  
-### Questions? Comments? Concerns? Email 
+### Questions? Comments? Concerns? Email qanswers@rocksaucestudios.com
 
